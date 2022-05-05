@@ -1,0 +1,13 @@
+<?php
+    require_once dirname(__FILE__).('/../DB/shade/select.php');
+
+    $obSelect = new select_shade();
+    $list = $obSelect->select_all();
+    $listArray = array();
+
+    while($row = $list->fetch_array(MYSQLI_ASSOC)) {
+            $listArray[] = $row;
+    }
+
+    echo json_encode($listArray);
+?>

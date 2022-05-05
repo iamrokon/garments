@@ -1,0 +1,69 @@
+CREATE VIEW cutting_production_view AS
+SELECT
+cutting_production.*,
+(select name from buyer where id = cutting_production.buyer)  as buyer_name,
+(select po_num from po where id = cutting_production.po)  as po_number,
+(select cut_num from cut_no where id = cutting_production.cut_num)  as cut_number,
+(select sum(quantity) from cut_pro_bundle where production_id = cutting_production.id)  as cutting_production,
+(select name from color where id = cutting_production.color)  as color_name,
+(select style_name from style where id = cutting_production.style)  as style_name,
+(select name from shade where id = cutting_production.shade)  as shade_name,
+(select user_name from user where id = cutting_production.creator_id)  as user_name
+FROM `cutting_production`
+where deletion_status != 1
+order by `cutting_production`.`id` asc
+
+
+
+CREATE VIEW qr_code_view AS 
+SELECT
+cutting_production.id,
+cutting_production.po,
+cutting_production.style,
+cutting_production.qr_code,
+cutting_production.cut_num,
+cut_pro_bundle.from_id,
+cut_pro_bundle.to_id,
+cut_pro_bundle.quantity,
+cut_pro_bundle.pattern,
+cut_pro_bundle.country_id,
+cut_pro_bundle.id as b_id,
+(select full_name from country WHERE id = cut_pro_bundle.country_id) as country_name,
+(select country_code from country WHERE id = cut_pro_bundle.country_id) as country_code,
+(select length_wrap from shrinkage WHERE style_id = cutting_production.style and pattern = cut_pro_bundle.pattern and `deletion_status` = 0 )  as length_wrap,
+(select width_weft from shrinkage WHERE style_id = cutting_production.style and pattern = cut_pro_bundle.pattern and `deletion_status` = 0)  as width_weft,
+(select name from shade WHERE id = cut_pro_bundle.shade) as shade_name,
+(select size from cut_pro_size WHERE production_id = cut_pro_bundle.production_id
+and ticket_no = cut_pro_bundle.ticket_no) as ticket_size,
+(select sum(quantity) from cut_pro_bundle
+WHERE production_id = cutting_production.id
+and  ticket_no = cut_pro_bundle.ticket_no) as total_quantity_bundle,
+(select DISTINCT order_country.tod FROM
+(order_country inner join order_details
+on order_country.order_id = order_details.id)
+WHERE order_details.po = cutting_production.po
+and order_country.country_id = cut_pro_bundle.country_id
+and order_country.deletion_status = 0)  as tods,
+(SELECT (select sum(quantity) from order_qtn_size where order_id = order_details.id and country_id = cut_pro_bundle.country_id) as t_quantity
+FROM (order_details inner join order_qtn_size
+on order_qtn_size.order_id = order_details.id)
+where order_details.po = cutting_production.po
+and order_qtn_size.country_id = cut_pro_bundle.country_id
+and order_details.deletion_status != 1 LIMIT 1) as total_quantity,
+(SELECT (select sum(quantity) from order_qtn_size
+where order_id = order_details.id) as tot_quantity
+FROM (order_details inner join order_qtn_size
+on order_qtn_size.order_id = order_details.id)
+where order_details.po = cutting_production.po
+and order_details.deletion_status != 1 LIMIT 1) as po_total_quantity,
+(SELECT (select name from line WHERE id = bp_issue.line) as l_name
+FROM bp_issue WHERE
+bp_issue.b_tkt_code = cut_pro_bundle.id
+and bp_issue.deletion_status = 0
+ORDER BY bp_issue.id DESC LIMIT 1) as line_name,
+(select po_num from po WHERE id = cutting_production.po)  as po_number,
+(select cut_num from cut_no WHERE id = cutting_production.cut_num)  as cut_number,
+(select name from color WHERE id = cutting_production.color)  as color_name,
+(select style_name from style WHERE id = cutting_production.style)  as style_name
+FROM cutting_production left join cut_pro_bundle on cutting_production.id = cut_pro_bundle.production_id
+WHERE cutting_production.deletion_status = 0

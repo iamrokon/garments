@@ -1,0 +1,150 @@
+[30-Apr-2019 02:02:04 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/formatedstring.php:1) in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php(231): FPDF->Output()
+#3 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[30-Apr-2019 02:03:42 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:40) in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php(231): FPDF->Output()
+#3 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[22-Jun-2019 10:50:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1413): FPDF->_readstream(Resource id #1449, 4)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1306): FPDF->_readint(Resource id #1449)
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #1449, '../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 11.00125, 42.00125, 16, 19.2)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/ in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[29-Jul-2019 06:00:09 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[29-Jul-2019 06:00:09 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #304, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #304, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 11.00125, 78.82125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 77.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pages/cprodu in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[29-Jul-2019 06:00:20 UTC] PHP Warning:  Division by zero in /ho[22-Sep-2019 04:44:46 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:44:55 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:01 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:04 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:15 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:19 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:22 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:45:27 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:49:05 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:53:18 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:53:19 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:59:26 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:59:28 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[22-Sep-2019 04:59:53 UTC] PHP Fatal error:  Uncaught Error: Class 'select_cproduction' not found in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/generate.php on line 33
+[15-Oct-2019 09:42:41 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[15-Oct-2019 09:42:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #238, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #238, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 11.00125, 183.82125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 182.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pages/cpro in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[15-Oct-2019 09:42:47 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[15-Oct-2019 09:42:47 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #238, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #238, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 11.00125, 183.82125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 182.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pages/cpro in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[15-Oct-2019 09:42:51 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[15-Oct-2019 09:42:51 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #238, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #238, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 11.00125, 183.82125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 182.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pages/cpro in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[15-Oct-2019 09:42:55 UTC] PHP Warn[07-Nov-2019 12:03:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 10
+[07-Nov-2019 12:03:05 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 20
+[25-Nov-2019 14:42:58 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[25-Nov-2019 14:42:58 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #582, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #582, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 107.50004166667, 149.22125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 147.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pag in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[25-Nov-2019 14:43:05 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[25-Nov-2019 14:43:05 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #582, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #582, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 107.50004166667, 149.22125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(445): easyTable->print_text(0, 147.00125, 0)
+#6 /home/sdlsoftware/denims.sdlsoftware.com/pag in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php on line 271
+[25-Nov-2019 14:43:12 UTC] PHP Warning:  Division by zero in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php on line 227
+[25-Nov-2019 14:43:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Unexpected end of stream in /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php:271
+Stack trace:
+#0 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1406): FPDF->Error('Unexpected end ...')
+#1 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1270): FPDF->_readstream(Resource id #582, 8)
+#2 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(1262): FPDF->_parsepngstream(Resource id #582, '../qr/temp/test...')
+#3 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/fpdf.php(885): FPDF->_parsepng('../qr/temp/test...')
+#4 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf17/easyTable.php(386): FPDF->Image('../qr/temp/test...', 107.50004166667, 149.22125, 14.8, 17.76)
+#5 /home/sdlsoftware/denims.sdlsoftware.com/pages/cproduction/qr/fpdf1

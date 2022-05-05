@@ -1,0 +1,4 @@
+[14-Nov-2019 11:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cal_days_in_month() in /home/sdlsoftware/denims.sdlsoftware.com/pages/nqc_rqc/insert.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/sdlsoftware/denims.sdlsoftware.com/pages/nqc_rqc/insert.php on line 67

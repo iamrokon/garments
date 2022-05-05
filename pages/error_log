@@ -1,0 +1,18 @@
+[12-May-2019 05:17:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 10
+[12-May-2019 05:17:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 20
+[16-Jun-2019 13:39:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 10
+[16-Jun-2019 13:39:43 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/sdlsoftware/denims.sdlsoftware.com/DB/db_con.php on line 20
+[21-Aug-2019 09:36:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:36:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:37:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 207
+[21-Aug-2019 09:37:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 206
+[21-Aug-2019 09:37:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/display2.php on line 206
+[25-Feb-2020 08:25:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/info.php on line 3
+[25-Feb-2020 08:26:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sdlsoftware/denims.sdlsoftware.com/pages/info.php on line 3

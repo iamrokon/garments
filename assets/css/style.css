@@ -1,0 +1,31 @@
+.table-soutput th{
+  color: white!important;
+}
+#itemName{
+  background-color: #ddd;
+  z-index: 800;
+}
+#headerName{
+  z-index: 1000;
+}
+.order_color1 {
+    background: linear-gradient(to right,#ff8d00,#f5d6d6 )!important;
+}
+.order_color2 {
+    background: linear-gradient(to right,#2cab49 0%,#6acbe0 100%)!important;
+}
+.order_color3 {
+    background: linear-gradient(to right,#ff8d00,#f5d6d6 )!important;
+    color: #000;
+    font-size: 15px;
+}
+#example tr td{
+  color: black;
+  text-align: center;
+}
+#example tr th{
+  text-align: center;
+}
+.w3-small input, select{
+  height: 30px;
+}

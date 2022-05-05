@@ -1,0 +1,4 @@
+[21-Jul-2019 13:33:26 Europe/London] PHP Notice:  Undefined variable: trinhouse_details_info in /home/sdlsoftware/denims.sdlsoftware.com/pages/trinhouse/trinhouse_detail_excel.php on line 182
+[21-Jul-2019 13:33:26 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/sdlsoftware/denims.sdlsoftware.com/pages/trinhouse/trinhouse_detail_excel.php on line 182
+[21-Jul-2019 13:33:26 Europe/London] PHP Notice:  Undefined variable: item_name in /home/sdlsoftware/denims.sdlsoftware.com/pages/trinhouse/trinhouse_detail_excel.php on line 301
+[21-Jul-2019 13:33:26 Europe/London] PHP Notice:  Undefined variable: item_name in /home/sdlsoftware/denims.sdlsoftware.com/pages/trinhouse/trinhouse_detail_excel.php on line 303

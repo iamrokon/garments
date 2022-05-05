@@ -1,0 +1,7 @@
+[03-Jul-2019 14:37:43 Europe/London] PHP Notice:  Undefined variable: order_child_size_country in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 80
+[03-Jul-2019 14:37:43 Europe/London] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 80
+[03-Jul-2019 14:37:43 Europe/London] PHP Notice:  Undefined variable: order_child_size_country in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 80
+[03-Jul-2019 14:37:43 Europe/London] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 80
+[03-Jul-2019 14:37:43 Europe/London] PHP Notice:  Undefined variable: order_details in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 134
+[03-Jul-2019 14:37:43 Europe/London] PHP Notice:  Undefined variable: order_details in /home/sdlsoftware/denims.sdlsoftware.com/pages/dhu/sewing_report_excel.php on line 134
+[23-Jan-2020 06:49:45 UTC] PHP Warning:  Unknown: Input variables exceeded 10000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
